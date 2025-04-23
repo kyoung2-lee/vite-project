@@ -1,13 +1,14 @@
 {
-  "name": "vite-project",
+  "name": "second",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.1.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "pm2 start server.js"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -25,5 +26,10 @@
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.26.1",
     "vite": "^6.3.1"
-  }
+  },
+  "description": "nothing",
+  "main": "index.js",
+  "repository": "https://github.com/kyoung2-lee/vite-project.git",
+  "author": "kyoung2-lee <kyoung60003@gmail.com>",
+  "license": "MIT"
 }
